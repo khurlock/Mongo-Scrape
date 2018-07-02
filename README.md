@@ -1,2 +1,2 @@
-# cheerio_mongo
-UT Coding Bootcamp Week 18 Homework - MongoDB/Mongoose and Cheerio
+# Scraped-News
+KU Coding Bootcamp project that utilizes Javascript, Node.js, Handlebars framework, and MongoDB

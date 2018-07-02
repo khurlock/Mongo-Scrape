@@ -1,39 +1,91 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
-	background: url(/assets/img/fba7da61.png);
-	font-family: 'Lora', serif;
-	font-size: 150%;
+  margin-bottom: 80px;
+  background-color: lightgray;
 }
 
-body, h1, h2 {
-	font-weight: 600;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  color: white;
+  background-color: #2196f3;
 }
 
-select {
-	border-radius: 4px; 
-	border: 1px solid #AAA;
+.navbar {
+  margin-bottom: 0;
 }
 
-.jumbotron {
-	background-color: white;
+.panel.panel-default .panel-heading {
+  background-color: #2196f3;
+  position: relative;
 }
 
-.list-group-item {
-	padding: 5px;
+.panel.panel-default .panel-heading h3 {
+  color: white;
 }
 
-.form-control {
-	font-size: 100%;
+.panel.panel-default .panel-heading .btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
-#done {
-	color: lightgrey;
+.panel.panel-default .panel-heading .btn.delete {
+  right: 160px;
 }
 
-/* Custom classes */
-.min-height-200 {
-	min-height: 200px;
+.panel.panel-default .panel-body {
+  font-size: 16px;
 }
 
-.min-height-400 {
-	min-height: 400px;
+.panel.panel-default .panel-heading .article-link {
+  color: white;
+  display: inline-block;
+  width: 80%;
+}
+
+.footer > .container > p {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin: 0;
+  font-weight: 800;
+  background: #0c7cd5;
+}
+
+.scrape-new {
+  cursor: pointer;
+}
+
+.m-top-80 {
+  margin-top: 80px;
+}
+
+textarea {
+  padding: 10px;
+  resize: none;
+}
+
+.bootbox-body .btn {
+  float: right;
+  margin: 5px;
+}
+
+.note.list-group-item {
+  padding: 30px;
+}
+
+.note.list-group-item .btn {
+  position: relative;
+  bottom: 10px;
 }

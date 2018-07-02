@@ -1,30 +1,28 @@
 {
-  "name": "scraper",
-  "version": "0.0.1",
-  "description": "",
-  "main": "server.js",
+  "name": "scraped-news",
+  "version": "1.0.0",
+  "description": "UCI Coding Bootcamp project that utilizes Javascript, Node.js, Handlebars framework, and MongoDB",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattsplats/cheerio_mongo.git"
+    "url": "git+https://github.com/NancyDLL/Scraped-News.git"
   },
-  "author": "",
+  "author": "Nan Loyd-Leffingwell",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mattsplats/cheerio_mongo/issues"
+    "url": "https://github.com/NancyDLL/Scraped-News/issues"
   },
-  "homepage": "https://github.com/mattsplats/cheerio_mongo#readme",
+  "homepage": "https://github.com/NancyDLL/Scraped-News#readme",
   "dependencies": {
-    "bluebird": "^3.4.6",
-    "body-parser": "^1.15.2",
-    "cheerio": "^0.22.0",
-    "express": "^4.14.0",
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^4.7.2",
-    "morgan": "^1.7.0",
-    "request": "^2.79.0",
-    "request-promise": "^4.1.1"
+    "mongoose": "^4.13.2",
+    "request": "^2.83.0"
   }
 }
