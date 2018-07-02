@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NancyDLL/Scraped-News.git"
+    "url": "git+https://github.com/khurlock/Mongo-Scrape"
   },
-  "author": "Nan Loyd-Leffingwell",
+  "author": "Kolin Hurlock",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NancyDLL/Scraped-News/issues"
+    "url": "https://github.com/khurlock/Mongo-Scrape/issues"
   },
-  "homepage": "https://github.com/NancyDLL/Scraped-News#readme",
+  "homepage": "https://github.com/khurlock/Mongo-Scrape#readme",
   "dependencies": {
     "axios": "^0.17.1",
     "body-parser": "^1.18.2",
